@@ -41,4 +41,16 @@ img,
 
 .spotlight.image {
     cursor: pointer;
+    /* Additional */
+    /* width: 30vw;
+    max-width: 500px;
+    margin: 1vh 1vw;
+    display: inline-block;
+    height: 20vw;
+    max-height: 333.33px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: contain;
+    */
 }
