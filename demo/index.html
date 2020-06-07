@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>Photo Gallery</title>
+    <script src="spotlight.bundle.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="theme.css">
+</head>
+
+<body>
+    <b>
+        <img src="https://cdn.jsdelivr.net/gh/nextapps-de/spotlight@master/doc/spotlight.svg" alt="Spotlight.js"><br><br>
+        <p>Fabian's Photos</p>
+        <hr>
+    </b>
+    <p class="spotlight-group">
+        <b>Anchors &amp; Images</b>
+        <a class="spotlight" href="gallery/brooklyn-bridge-1791001.jpg" data-description="My description">
+            <img src="gallery/brooklyn-bridge-1791001-thumb.jpg" alt="Lorem ipsum dolor sit amet">
+        </a>
+        <a class="spotlight" href="gallery/california-1751455.jpg">
+            <img src="gallery/california-1751455-thumb.jpg">
+        </a>
+        <a class="spotlight" href="gallery/canada-2340312.jpg">
+            <img src="gallery/canada-2340312-thumb.jpg">
+        </a>
+    </p>
+    <b>New York</b>
+    <div class="spotlight-group">
+        <div class="spotlight image" data-src="gallery/car.jpg" style="background-image:url(gallery/car.jpg)"></div>
+        <div class="spotlight image" data-src="gallery/car.jpg" style="background-image:url(gallery/car.jpg)"></div>
+        <div class="spotlight image" data-src="gallery/car.jpg" style="background-image:url(gallery/car.jpg)"></div>
+        <div class="spotlight image" data-src="gallery/car.jpg" style="background-image:url(gallery/car.jpg)"></div>
+
+    </div>
+    <b>Los Angeles</b>
+    <div class="spotlight-group">
+        <div data-description="Sunset in LA from Griffith Observertory" class="spotlight image" data-src="gallery/LA-sunset.jpg" style="background-image:url(gallery/LA-sunset.jpg)"></div>
+        <div class="spotlight image" data-src="gallery/LA-street.jpg" style="background-image:url(gallery/LA-street.jpg)"></div>
+        <div class="spotlight image" data-src="gallery/LA-WD.jpg" style="background-image:url(gallery/LA-WD.jpg)"></div>
+        <b>Test</b>
+        <div class="spotlight image" data-src="gallery/LA-street.jpg" style="background-image:url(gallery/LA-street.jpg)"></div>
+
+    </div>
+</body>
+
+</html>
